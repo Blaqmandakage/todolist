@@ -47,7 +47,7 @@ label {
 }
 .delete-button {
   background-color: #ff4d4d;
-  align-items: stretch;
+  /* align-items: stretch; */
 
   color: white;
   border: none;

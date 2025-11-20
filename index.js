@@ -110,9 +110,6 @@ function addRecord() {
   yearSelect.value = "";
   gradeInput.value = "";
 
-  const display = document.querySelector(".display-area");
-  display.style.display = "block";
-
   renderInstitutionTodos();
 }
 // institutionInputArray = "";
