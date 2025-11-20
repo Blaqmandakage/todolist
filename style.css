@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tienne:wght@400;700;900&display=swap");
+
+body {
+  font-family: "Tienne", serif;
+  background-color: rgb(12, 69, 92);
+  color: whitesmoke;
+}
+h2 {
+  text-align: center;
+  font-family: "dancing script", sans-serif;
+  font-size: 3rem;
+}
+.encompass {
+  max-width: 500px;
+  margin: 32px auto;
+  background-color: rgb(12, 69, 92);
+}
+
+select,
+input {
+  display: block;
+
+  padding: 0.8rem 0.5rem;
+  outline: none;
+}
+select {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+input {
+  width: 95%;
+  margin-bottom: 1rem;
+}
+label {
+  padding-bottom: 0.4rem;
+}
+
+.display-area {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 90px 60px 35px 40px 120px;
+  gap: 0.8rem;
+  font-family: "Dancing Script", cursive;
+  font-size: 0.8rem;
+  color: white;
+}
+.delete-button {
+  background-color: #ff4d4d;
+  align-items: stretch;
+
+  color: white;
+  border: none;
+  padding: 5px 2px;
+  cursor: pointer;
+  border-radius: 3px;
+  /* margin-top: 5px; */
+}
+
+.add-record {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.solution {
+  background-color: rgba(12, 69, 92, 0.342);
+  max-width: 500px;
+  margin: 16px auto;
+}
